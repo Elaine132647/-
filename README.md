@@ -34,7 +34,8 @@ __1. 使用環境__ \
 * 本機環境建構(optional)
   於測試時，選用anaconda 搭建env使用，以達到各執行續不會因調用同一驅動檔案而出錯之目的，\
   env建置指令如下: 
-  * python -m ipykernel install --user --name m_yenv --display-name "Python (myenv)"
+  * conda create --name m_yenv python=3.11
+  * 於jupyter notebook中使用創建之env: python -m ipykernel install --user --name m_yenv --display-name "Python (myenv)" (其中的name需與env名字相同，後方的display name可自由命名)
   * ⭐此指令需於anaconda prompt中輸入，此安裝無法確定是否將環境與cmd(畚箕環境)連接，因此本機環境中可能仍無法執行
     * 判斷是否與本機連動之方法:
       * 於cmd中輸入python --version，若無出現安裝之python版本，則無連接，可另外上網搜尋連接方法或以本說明中方法使用。  
