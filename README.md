@@ -94,6 +94,10 @@ __4. 可能遇到的問題:__
   * 於存入csv檔時，為確保可使用excel開啟，將儲存格式調整為utf-8 with bom, 即利用程式碼 **file.write('\ufeff')** 進行調整。
   * 若最終仍有少數資料無法取得，可於開發者頁面中，右鍵該元素，並點選以HTML形式編輯，即可看到完整的元素呈現。
   * 由於各網頁的結構與限制不同，此方法僅提供大略調整方向，細部內容仍需對html 元素使用進行分析以調整。
+  * 我將先前編寫時所用道的參考資料與網頁置於此，若有需要可以參考😊😊
+    * https://github.com/kobojp/scraper_104_1111
+    * https://github.com/SuYenTing/Python-web-crawler/blob/main/104_job_search.py
+    * https://ithelp.ithome.com.tw/articles/10202121
 
 
 
